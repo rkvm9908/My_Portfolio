@@ -111,12 +111,6 @@ function Contact() {
 
               {[
                 {
-                  icon: <FaEnvelope />,
-                  label: "Email",
-                  text: "mathuprasanth9908@gmail.com",
-                  href: "mailto:mathuprasanth9908@gmail.com",
-                },
-                {
                   icon: <FaPhoneAlt />,
                   label: "Phone",
                   text: "+91 6380689908",
@@ -137,7 +131,7 @@ function Contact() {
                 {
                   icon: <FaLinkedin />,
                   label: "LinkedIn",
-                  text: "linkedin.com/in/mathuprasanth-r-k",
+                  text: "mathuprasanth-r-k",
                   href: "https://www.linkedin.com/in/mathuprasanth-r-k/",
                 },
               ].map(({ icon, label, text, href }) => (
