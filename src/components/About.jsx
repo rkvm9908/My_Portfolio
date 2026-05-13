@@ -10,10 +10,10 @@ function About() {
         <Row className="align-items-center">
           <Col lg={6}>
             <div className="about-content" data-aos="fade-right">
-              <h3>Full Stack Developer & IT Postgraduate</h3>
+              <h3>Python Developer & IT Postgraduate</h3>
 
               <p>
-                I am Mathuprasanth R K, a passionate Python Full Stack Developer currently
+                I am Mathuprasanth R K, a passionate Python Developer currently
                 pursuing M.Sc Information Technology. I enjoy building modern,
                 responsive, and user-friendly web applications.
               </p>
@@ -50,7 +50,7 @@ function About() {
                   <Card.Body>
                     <h4>Experience</h4>
 
-                    <p>Python Full Stack Development</p>
+                    <p>Python & Machine Learning</p>
 
                     <span>Academic Projects & Hands-on Projects</span>
                   </Card.Body>
@@ -76,7 +76,7 @@ function About() {
 
                     <p>Become a Professional Developer</p>
 
-                    <span>Full Stack Engineer</span>
+                    <span>Software Engineer</span>
                   </Card.Body>
                 </Card>
               </Col>

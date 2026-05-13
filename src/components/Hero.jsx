@@ -15,7 +15,7 @@ function Hero() {
 
               <h1 className="hero-title">Mathuprasanth R K</h1>
 
-              <h2 className="hero-role">Python Full Stack Developer</h2>
+              <h2 className="hero-role">Python Developer</h2>
 
               <p className="hero-description">
                 Passionate Python Developer focused on building responsive,

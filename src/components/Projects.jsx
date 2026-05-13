@@ -1,13 +1,12 @@
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
-
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt,FaArrowRight } from "react-icons/fa";
 
 import "../styles/project.css";
 
 import phishing from "../assets/images/phishing.png";
 import joboffer from "../assets/images/joboffer.png";
 import student from "../assets/images/student.png";
-
+const VIEW_ALL_URL = "https://mathu9908.42web.io/certificate/index.php";
 const projects = [
   {
     title: "Phishing URL Detection",
@@ -120,6 +119,21 @@ function Projects() {
           ))}
         </Row>
       </Container>
+      <div className="vab-wrapper">
+      <a
+        href={VIEW_ALL_URL}
+        target="_blank"
+        rel="noreferrer"
+        className="vab-btn"
+      >
+        <span className="vab-label">View All Projects &amp; Certificates</span>
+ 
+        <span className="vab-icon-wrap">
+          <FaArrowRight className="vab-arrow" />
+          <FaExternalLinkAlt className="vab-ext" />
+        </span>
+      </a>
+    </div>
     </section>
   );
 }

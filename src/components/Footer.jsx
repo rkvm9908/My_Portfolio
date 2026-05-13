@@ -16,7 +16,7 @@ function Footer() {
               </h3>
 
               <p>
-                Python Full Stack Developer passionate about building modern and
+                Python Developer passionate about building modern and
                 user-friendly web applications.
               </p>
             </div>
@@ -51,7 +51,7 @@ function Footer() {
                   <FaGithub />
                 </a>
 
-                <a href="mailto:mathuprasanth9908@email.com">
+                <a href="https://www.behance.net/RKVM">
                   <FaBehance />
                 </a>
 

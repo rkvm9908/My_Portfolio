@@ -98,3 +98,120 @@
 
   gap: 8px;
 }
+
+/* ═══════════════════════════════════════════
+   ViewAllButton — Outlined Stylish
+   ═══════════════════════════════════════════ */
+
+.vab-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+/* ── Base Button ── */
+.vab-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 15px 36px;
+  border-radius: 50px;
+
+  /* Outlined style */
+  background: transparent;
+  border: 2px solid var(--primary-color, #1674f9);
+  color: var(--primary-color, #1674f9);
+
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+
+  overflow: hidden;
+  transition: color 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* Gradient fill that slides in on hover */
+.vab-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0f6055 0%, rgb(13, 144, 107) 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+  border-radius: inherit;
+}
+
+.vab-btn:hover::before {
+  transform: scaleX(1);
+}
+
+.vab-btn:hover {
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 8px 28px #16f9d359;
+  text-decoration: none;
+}
+
+/* ── Label ── */
+.vab-label {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Icon wrap ── */
+.vab-icon-wrap {
+  position: relative;
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Arrow shows by default, external icon on hover */
+.vab-arrow {
+  position: absolute;
+  font-size: 14px;
+  transition: opacity 0.2s ease, transform 0.3s ease;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.vab-ext {
+  position: absolute;
+  font-size: 13px;
+  transition: opacity 0.2s ease 0.05s;
+  opacity: 0;
+}
+
+.vab-btn:hover .vab-arrow {
+  opacity: 0;
+  transform: translateX(6px);
+}
+
+.vab-btn:hover .vab-ext {
+  opacity: 1;
+}
+
+/* ── Active press feel ── */
+.vab-btn:active {
+  transform: scale(0.97);
+}
+
+/* ── Mobile ── */
+@media (max-width: 576px) {
+  .vab-btn {
+    padding: 13px 28px;
+    font-size: 14px;
+  }
+
+  .vab-wrapper {
+    margin-top: 36px;
+  }
+}
