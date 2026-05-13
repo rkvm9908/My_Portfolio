@@ -59,7 +59,7 @@ function Footer() {
                   <FaLinkedin />
                 </a>
 
-                <a href="mailto:mathuprasanth9908@email.com">
+                <a href="mailto:mathuprasanth9908@gmail.com">
                   <FaEnvelope />
                 </a>
               </div>
