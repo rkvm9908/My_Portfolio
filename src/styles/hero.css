@@ -43,6 +43,7 @@
   margin-bottom: 30px;
 
   max-width: 600px;
+  text-align: left;
 }
 
 .hero-buttons {
@@ -197,6 +198,12 @@
     margin-bottom: 50px;
   }
 
+    .hero-description {
+    text-align: center;
+    margin-inline: auto;
+    font-size: 0.9rem;
+  }
+  
   .hero-buttons {
     justify-content: center;
   }

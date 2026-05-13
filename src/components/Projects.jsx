@@ -4,11 +4,15 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import "../styles/project.css";
 
+import phishing from "../assets/images/phishing.png";
+import joboffer from "../assets/images/joboffer.png";
+import student from "../assets/images/student.png";
+
 const projects = [
   {
     title: "Phishing URL Detection",
 
-    image: "../src/assets/images/1.png",
+    image: phishing,
 
     description:
       "Phishing URL classifier using a Voting Classifier fusing Random Forest and XGBoost. Engineered 45+ URL-based features; improved model robustness through hyperparameter tuning and k-fold cross-validation.",
@@ -22,7 +26,7 @@ const projects = [
   {
     title: "Fake Job & Scholarship Detector",
 
-    image: "../src/assets/images/2.png",
+    image: joboffer,
 
     description:
       "Flask web app that detects fake job and scholarship offers in real-time using an adaptive multi-model ML pipeline with TF-IDF vectorization. Integrated Google Gemini LLM to auto-generate AI-powered explanations and surface critical red flags for flagged results.",
@@ -35,7 +39,7 @@ const projects = [
   {
     title: "Student Result and Information management System.",
 
-    image: "../src/assets/images/3.png",
+    image: student,
 
     description:
       "Full-stack web app for managing student academic records.Implemented CRUD operations with session-based authentication.Designed optimized relational database schema for faster queries.Built responsive UI for cross-device compatibility",
