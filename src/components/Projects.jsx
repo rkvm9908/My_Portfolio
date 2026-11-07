@@ -6,7 +6,7 @@ import "../styles/project.css";
 import phishing from "../assets/images/phishing.png";
 import joboffer from "../assets/images/joboffer.png";
 import student from "../assets/images/student.png";
-const VIEW_ALL_URL = "https://mathu9908.42web.io/certificate/index.php";
+const VIEW_ALL_URL = "https://showcase-bay-nine.vercel.app";
 const projects = [
   {
     title: "Phishing URL Detection",
