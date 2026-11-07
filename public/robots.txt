@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://my-portfolio-rust-ten-57.vercel.app/sitemap.xml
