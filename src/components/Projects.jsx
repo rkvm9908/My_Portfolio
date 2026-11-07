@@ -5,7 +5,7 @@ import "../styles/project.css";
 
 import phishing from "../assets/images/phishing.png";
 import joboffer from "../assets/images/joboffer.png";
-import student from "../assets/images/student.png";
+import kovaiworks from "../assets/images/kovaiworks.jpg";
 const VIEW_ALL_URL = "https://showcase-bay-nine.vercel.app";
 const projects = [
   {
@@ -36,17 +36,18 @@ const projects = [
   },
 
   {
-    title: "Student Result and Information management System.",
+    title: "KovaiWorks real-time hyperlocal gig platform",
 
-    image: student,
+    image: kovaiworks,
 
     description:
-      "Full-stack web app for managing student academic records.Implemented CRUD operations with session-based authentication.Designed optimized relational database schema for faster queries.Built responsive UI for cross-device compatibility",
+      "KovaiWorks is a real-time hyperlocal gig platform that connects Coimbatore-based industries, factories, and event organisers with daily wage workers. It features OTP authentication, bilingual support, live worker tracking, job requests, real-time chat, and simulated UPI payments, providing a seamless platform for local employment opportunities.",
 
-    technologies: ["PHP", "MySQL", "Apache", "LARAVEL", "Bootstrap"],
+    technologies: ["Flutter","Firebase","Flutter Maps","Dart","REST API","Cloud Firestore", "geolocator"],
 
-    gitHubLink: "https://github.com/rkvm9908/SRIMS.git",
+    gitHubLink: "https://github.com/rkvm9908/kovaiworks.git",
 
+    websiteLink: "https://kovaiworks.web.app",
   },
 ];
 

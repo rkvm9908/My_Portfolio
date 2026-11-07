@@ -25,11 +25,11 @@
 }
 
 .skill-card .card-body {
-  padding: 35px 20px;
+  padding: 10px 20px;
 }
 
 .skill-icon {
-  font-size: 4rem;
+  font-size: 2.5rem;
 
   margin-bottom: 20px;
 
@@ -39,7 +39,7 @@
 }
 
 .skill-card:hover .skill-icon {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .skill-card h4 {
@@ -48,4 +48,10 @@
   font-size: 1.2rem;
 
   margin: 0;
+}
+
+@media (max-width: 768px) {
+.skill-card .card-body {
+  padding: 5px 10px;
+}
 }
