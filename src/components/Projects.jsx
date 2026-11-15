@@ -20,7 +20,6 @@ const projects = [
 
     gitHubLink: "https://github.com/rkvm9908/Python_projects/tree/9e49ad831ce7cc55b5b201b33e33b5b49d888d96/Phishing%20URL%20Detecion",
 
-    websiteLink: "https://smart-phishing-guard-2.onrender.com",
   },
   {
     title: "Fake Job & Scholarship Detector",
