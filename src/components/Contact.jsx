@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
 import {
-  FaEnvelope,
   FaGithub,
   FaLinkedin,
   FaPhoneAlt,

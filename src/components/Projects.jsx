@@ -3,24 +3,24 @@ import { FaGithub, FaExternalLinkAlt,FaArrowRight } from "react-icons/fa";
 
 import "../styles/project.css";
 
-import phishing from "../assets/images/phishing.png";
+import electric_vc from "../assets/images/electric_vc.png";
 import joboffer from "../assets/images/joboffer.png";
 import kovaiworks from "../assets/images/kovaiworks.jpg";
 const VIEW_ALL_URL = "https://showcase-bay-nine.vercel.app";
 const projects = [
   {
-    title: "Phishing URL Detection",
+    title: "Electric Vehicle (EV) Charging Station Management System",
 
-    image: phishing,
+    image: electric_vc,
 
     description:
-      "Phishing URL classifier using a Voting Classifier fusing Random Forest and XGBoost. Engineered 45+ URL-based features; improved model robustness through hyperparameter tuning and k-fold cross-validation.",
+      "A smart, centralized digital platform for managing and accessing EV charging stations — built to solve real-time monitoring, slot allocation, and booking inefficiencies in traditional charging systems.",
 
-    technologies: ["Python","XGBoost","Random Forest","scikit-learn","Ensemble"],
+    technologies: ["Python", "Flask", "PostgreSQL", "Cloudinary", "Google Maps API", "Vercel"],
 
-    gitHubLink: "https://github.com/rkvm9908/Python_projects/tree/9e49ad831ce7cc55b5b201b33e33b5b49d888d96/Phishing%20URL%20Detecion",
+    gitHubLink: "https://github.com/rkvm9908/electric-vc-app.git",
 
-    websiteLink: "https://smart-phishing-guard-2.onrender.com",
+    websiteLink: "https://electric-vc-app.vercel.app",
   },
   {
     title: "Fake Job & Scholarship Detector",
