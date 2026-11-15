@@ -3,7 +3,7 @@ import { FaGithub, FaExternalLinkAlt,FaArrowRight } from "react-icons/fa";
 
 import "../styles/project.css";
 
-import electric_vc from "../assets/images/electric_vc.g";
+import electric_vc from "../assets/images/electric_vc.jpg";
 import joboffer from "../assets/images/joboffer.png";
 import kovaiworks from "../assets/images/kovaiworks.jpg";
 const VIEW_ALL_URL = "https://showcase-bay-nine.vercel.app";
